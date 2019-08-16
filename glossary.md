@@ -3,7 +3,7 @@
 This list provides a consistent definition of terms used in the FLOIP Specification
 
 | Term | Description | Synonyms \(discouraged\) |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | Block | A block is an action within a Flow. Blocks can execute instantly, or take time to wait for contact input. Blocks have one or more Exits, and Connections from their Exits to the start of other blocks. | Step, Action, Ruleset |
 |  | Channel | The details of the communication medium a Flow is being Run across, to communicate with a Contact. This could include the details of an SMS provider and shortcode, a telephone number and telecom connection, or a Facebook bot. |
 | Connection | A logical link between the Exit of a Block and the start of another Block. Connections + Blocks fully specify a Flow Definition. | Noodle |
@@ -17,6 +17,4 @@ This list provides a consistent definition of terms used in the FLOIP Specificat
 | Mode | The type of medium for transporting messages / exchanging data between a Contact and  Flow Runner. Some examples modes include: Text \(SMS, USSD\), IVR, and Rich Media \(Messenger, WhatsApp, Telegram, Twitter\). A mode is the generic type of the Channel. | Channel Type, Content Type |
 | Run | An instance of a Contact traversing through a Flow. | Flow execution, session |
 | Runner | A system capable of executing a Flow Definition with a Contact and doing something useful with the results. | Engine |
-
-
 
